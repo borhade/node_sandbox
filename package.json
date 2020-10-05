@@ -1,0 +1,22 @@
+{
+  "name": "node_sandbox",
+  "version": "1.0.0",
+  "description": "easy to learn",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e js,ejs,css,json, --watch app/app.js"
+  },
+  "author": "vishal borhade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.1",
+    "path": "^0.12.7",
+    "reload": "^3.1.0"
+  }
+}

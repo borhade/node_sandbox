@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<div class="container intro">
+  <h2>User form</h2>
+  <form action="savedata" method="post">
+    <div class="form-group">
+      <label for="email">first Name:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter firstname" name="firstname">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Last Name:</label>
+      <input type="text" class="form-control" id="pwd" placeholder="Enter lastname" name="lastname">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>|
+    <a href="/display" class="btn btn-info" role="button">Display</a>
+  </form>
+</div>
+<%- include('partials/footer') %>
